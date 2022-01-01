@@ -16,3 +16,5 @@ for i in range(3):
         ax[i, j].plot(x,y)
         ax[i, j].plot(0, 0, label="$\\mu$ ={:3.2f}\n$\\sigma$ = {:3.2f}".format(mu, sd), alpha=0)
         ax[i, j].legend(fontsize=8)
+
+plt.savefig("img101.png")
