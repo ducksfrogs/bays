@@ -12,10 +12,49 @@ data
 sum(data['amount'])
 
 
-mean(data['amount'])
+data['amount'].mean()
 
 
 data.describe()
+
+
+data_sorted = data.sort_values('amount')
+
+
+data_wiht_mean =data['amount'==58] = data['amount'].mean()
+
+
+data_wiht_mean
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data_wiht_mean = data.replace(58, data['amount'].mean())
+
+
+data_wiht_mean
+
+
+data_wiht_mean.describe()
+
+
+data_sorted
+
+
+data_trimed = data_sorted[0:7]
+
+
+data_trimed.describe()
 
 
 

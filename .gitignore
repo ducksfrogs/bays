@@ -32,9 +32,6 @@ src
 
 *.swp
 *.map
-.idea/
-Read the Docs
-config.rst
 *.iml
 /.project
 /.pydevproject
@@ -45,11 +42,11 @@ geckodriver.log
 
 # jetbrains IDE stuff
 *.iml
-.idea/
 
 *.png
 
 # copied changelog
 docs/source/changelog.md
 
+data/*
 .jupyter_releaser_checkout
