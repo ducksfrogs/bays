@@ -50,3 +50,4 @@ docs/source/changelog.md
 
 data/*
 .jupyter_releaser_checkout
+./PC/.virtual_documents/
